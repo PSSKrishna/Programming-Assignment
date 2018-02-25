@@ -1,0 +1,74 @@
+Sample Test Cases
+Input	Output
+Test Case 1	
+sumofsquares(41)
+True
+Test Case 2	
+sumofsquares(30)
+False
+Test Case 3	
+sumofsquares(17)
+True
+Test Case 4	
+wellbracketed("22)")
+False
+Test Case 5	
+wellbracketed("(a+b)(a-b)")
+True
+Test Case 6	
+wellbracketed("(a(b+c)-d)((e+f)")
+False
+Test Case 7	
+rotatelist([1,2,3,4,5],1)
+[5, 1, 2, 3, 4]
+Test Case 8	
+rotatelist([1,2,3,4,5],3)
+[3, 4, 5, 1, 2]
+Test Case 9	
+rotatelist([1,2,3,4,5],12)
+[4, 5, 1, 2, 3]
+Test Case 10	
+sumofsquares(499525)
+True
+Test Case 11	
+sumofsquares(6234)
+False
+Test Case 12	
+sumofsquares(49022465)
+True
+Test Case 13	
+sumofsquares(12323)
+False
+Test Case 14	
+sumofsquares(2500)
+True
+Test Case 15	
+wellbracketed("()()((()))()()()((((((()))))))")
+True
+Test Case 16	
+wellbracketed(")()((()))()()()((((((()))))))")
+False
+Test Case 17	
+wellbracketed("(()()(())()()()((((((())))))))")
+True
+Test Case 18	
+wellbracketed("()()((()))()()()(((((((((()))))))")
+False
+Test Case 19	
+wellbracketed("no brackets at all")
+True
+Test Case 20	
+rotatelist([1,2,3,4,5,6,7,8],9)
+[8, 1, 2, 3, 4, 5, 6, 7]
+Test Case 21	
+rotatelist([1,2,3,4,5,6,7,8],2)
+[7, 8, 1, 2, 3, 4, 5, 6]
+Test Case 22	
+rotatelist([1,2,3,4,5,6,7,8],19)
+[6, 7, 8, 1, 2, 3, 4, 5]
+Test Case 23	
+rotatelist([1,2,3,4,5,6,7,8],300)
+[5, 6, 7, 8, 1, 2, 3, 4]
+Test Case 24	
+rotatelist([1,2,3,4,5,6,7,8],24)
+[1, 2, 3, 4, 5, 6, 7, 8]
